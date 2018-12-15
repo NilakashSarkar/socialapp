@@ -24,7 +24,6 @@ mongoose
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(bodyParser.json())
 
-app.get('/', (req, res) => res.send('Hello World'));
 
 // Use Routes
 app.use('/api/users', users);
